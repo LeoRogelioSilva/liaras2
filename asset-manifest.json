@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/liaras2/static/css/main.f855e6bc.css",
+    "main.js": "/liaras2/static/js/main.85124dd0.js",
+    "static/js/453.918bc9c1.chunk.js": "/liaras2/static/js/453.918bc9c1.chunk.js",
+    "static/media/logo.svg": "/liaras2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/liaras2/index.html",
+    "main.f855e6bc.css.map": "/liaras2/static/css/main.f855e6bc.css.map",
+    "main.85124dd0.js.map": "/liaras2/static/js/main.85124dd0.js.map",
+    "453.918bc9c1.chunk.js.map": "/liaras2/static/js/453.918bc9c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.85124dd0.js"
+  ]
+}
