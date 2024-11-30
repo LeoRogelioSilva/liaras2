@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import Carousel from "./Carousel";
 
 interface TimeDifference {
   value: number;
@@ -66,9 +67,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <div>
-        <h1>Contagem regressiva para o casamento</h1>
-      </div>
+      <Carousel />
       <div>
         <h1>Estamos juntos há:</h1> <br />
         <div className="container">
