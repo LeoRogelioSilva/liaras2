@@ -1,0 +1,30 @@
+.falling-emojis-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  pointer-events: none; /* Permite clicar nos elementos abaixo */
+  overflow: hidden;
+  z-index: 9999; /* Garante que fique acima de outros elementos */
+}
+
+.falling-emoji {
+  position: absolute;
+  top: -100px; /* Começa fora da tela */
+  font-size: 2rem; /* Tamanho do emoji */
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vw); /* Cai até fora da tela */
+    opacity: 0; /* Fica transparente ao final */
+  }
+}

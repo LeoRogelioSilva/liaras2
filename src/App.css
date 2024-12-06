@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel {
+  max-height: 50%;
+  display: block;
+  margin-bottom: 15rem;
+  margin-top: 2rem;
+}
