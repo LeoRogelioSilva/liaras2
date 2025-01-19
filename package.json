@@ -1,7 +1,7 @@
 {
-  "name": "liaras2",
+  "name": "myPortfolio",
   "version": "0.1.0",
-  "homepage": "https://leorogeliosilva.github.io/liaras2",
+  "homepage": "https://leorogeliosilva.github.io/myportfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
